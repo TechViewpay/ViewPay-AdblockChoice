@@ -22,11 +22,11 @@ Ajoutez un div avec l’id "cadreJokerlyADS" dans votre page.
 
 Dans l'URL ci dessus, vous devez renseigner 2 paramètres qui permettront de configurer correctement l'adblock wall : 
 
-1. function_name
+#1. function_name
 
 Ici remplacez la macro ```[function_name]``` par le nom que vous donnerez à la fonction d'initialisation de l'adblock wall. Dans la suite de la documentation, nous utiliserons le nom ```AdblockWallinit```
 
-3. duration
+#2. duration
 
 Ici vous définissez la durée en minutes que vous offrez au lecteur en contrepartie de la visualisation d'une vidéo ViewPay. Par exemple si vous renseignez 15, l'Adblock Wall ne s'affichera plus pendant 15 minutes, pour laisser le lecteur profiter du contenu qu'il a obtenu en l'échange de la visualisation de la vidéo publicitaire.
 
