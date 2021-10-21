@@ -2,7 +2,7 @@
 
 Ce guide a pour objectif de vous guider dans la mise en place du widget JS Adblock wall de ViewPay dans votre site web.
 
-Pour rappel, Viewpay est une solution de micro-paiement par l'attention publicitaire, qui permet à l'utilisateur de débloquer un contenu ou un service premium en regardant une publicité.
+Pour rappel, Viewpay est une solution de micro-paiement par l'attention publicitaire, qui permet à l'utilisateur de débloquer un contenu ou un service premium en regardant volontairement une publicité.
 L'Adblock wall de ViewPay a été pensé pour répondre aux besoins d'éditeurs ne disposant pas de solution d'adblock wall, mais souhaitant bloquer l'accès au contenu de leur site aux visiteurs ayant un Adblocker activé : le visiteur a le choix de désactiver son adblock ou bien d’accéder au site pendant un temps défini en visualisant une pub ViewPay.
 
 ## Chargement du Javascript
