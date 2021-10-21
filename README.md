@@ -40,10 +40,10 @@ Fonctions :
 AdblockWallinit() - appelée typiquement au onload d’une page pour initialiser l'Adblock Wall. Si le code JS détecte un Adblocker, alors il affichera une popup modale qui empêche la navigation sur le site. Si l'utilisateur n'a pas d'Adblocker, alors le JS ne fait rien. 
 
 Callbacks :
-VPnoAds() - callback appelé si Viewpay n’a aucune publicité à servir. Vous pouvez décider de masquer totalement l'Adblock Wall si aucune publicité n'a été trouvée.
-VPplayAds() - callback de notification appelé lorsque l’utilisateur démarre la vidéo.
-VPcompleteAds() - appelé quand l’utilisateur a fini le parcours.
-VPcloseAds() - appelé si l’utilisateur ferme le parcours.
+- VPnoAds() - callback appelé si Viewpay n’a aucune publicité à servir. Vous pouvez décider de masquer totalement l'Adblock Wall si aucune publicité n'a été trouvée.
+- VPplayAds() - callback de notification appelé lorsque l’utilisateur démarre la vidéo.
+- VPcompleteAds() - appelé quand l’utilisateur a fini le parcours.
+- VPcloseAds() - appelé si l’utilisateur ferme le parcours.
 
 Les fonctions JS vont permettre au paywall de s'afficher correctement et de faire le parcours nécessaire à celui-ci.
 ```javascript
