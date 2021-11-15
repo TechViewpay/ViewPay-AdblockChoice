@@ -26,7 +26,7 @@ Dans l'URL ci dessus, vous devez renseigner 2 paramètres qui permettront de con
 
 #### 1. function_name
 
-Ici remplacez la macro ```[function_name]``` par le nom que vous donnerez à la fonction d'initialisation de l'adblock wall. Dans la suite de la documentation, nous utiliserons le nom ```AdblockWallinit```
+Ici remplacez la macro ```[function_name]``` par le nom que vous donnerez à la fonction d'initialisation de l'adblock wall. Dans la suite de la documentation, nous utiliserons le nom ```ABWinit```
 
 #### 2. duration
 
@@ -37,7 +37,7 @@ Ici vous définissez la durée en minutes que vous offrez au lecteur en contrepa
 Les fonctions et callbacks fournis par Viewpay sont les suivants : 
 
 Fonctions : 
-AdblockWallinit() - appelée typiquement au onload d’une page pour initialiser l'Adblock Wall. Si le code JS détecte un Adblocker, alors il affichera une popup modale qui empêche la navigation sur le site. Si l'utilisateur n'a pas d'Adblocker, alors le JS ne fait rien. 
+ABWinit() - appelée typiquement au onload d’une page pour initialiser l'Adblock Wall. Si le code JS détecte un Adblocker, alors il affichera une popup modale qui empêche la navigation sur le site. Si l'utilisateur n'a pas d'Adblocker, alors le JS ne fait rien. 
 
 Callbacks :
 - VPnoAds() - callback appelé si Viewpay n’a aucune publicité à servir. Vous pouvez décider de masquer totalement l'Adblock Wall si aucune publicité n'a été trouvée.
@@ -48,8 +48,8 @@ Callbacks :
 Les fonctions JS vont permettre au paywall de s'afficher correctement et de faire le parcours nécessaire à celui-ci.
 ```javascript
 <script>
-	function AdblockWallinit(){
-	var wall = new ViewPayWall({              // faire changer le nom en AdblockWall
+	function ABWinit(){
+	var wall = new ABW({
 		site_id: 'd0c656ec794afc3e',
 		load_callback:existAds,
 		noads_callback: noAds,
