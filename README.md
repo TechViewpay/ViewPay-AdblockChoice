@@ -10,8 +10,8 @@ L'Adblock wall de ViewPay a été pensé pour répondre aux besoins d'éditeurs 
 <script type="text/javascript" src="https://cdn.jokerly.com/scripts/adblockWall.js?[function_name]&[duration]"></script> 
 ```
 Le fichier adblockWall.js est le seul fichier nécessaire à appeler, celui-ci appelera les éléments nécessaires au moment voulu pour gérer le wall.
-Ces fichiers sont installés sur notre CDN afin de vous garantir d'avoir toujours la dernière version. Cependant, pour éviter que notre fichier soit facilement bloqué par les solutions d’adblock, il serait préférable de l'héberger sur votre plateforme voire de l’intégrer dans d'autres fichiers JS indispensables afin qu'il soit plus difficilement bloquable. 
-
+Ces fichiers doivent être installés sur vos serveurs afin d'éviter qu'il soit facilement bloqué par les solutions d’adblock et que ViewPay soit identifié comme acteur anti-adblock.
+On peut également l’intégrer dans d'autres fichiers JS indispensables afin qu'il soit plus difficilement bloquable.
 
 NB: Il faut placer le script le plus haut possible dans la page afin d’optimiser son temps de chargement.
 
