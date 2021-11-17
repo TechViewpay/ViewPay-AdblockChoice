@@ -30,7 +30,7 @@ Ici remplacez la macro ```[function_name]``` par le nom que vous donnerez à la 
 
 #### 2. duration
 
-Ici vous définissez la durée en minutes que vous offrez au lecteur en contrepartie de la visualisation d'une vidéo ViewPay. Par exemple si vous renseignez 15, l'Adblock Wall ne s'affichera plus pendant 15 minutes, pour laisser le lecteur profiter du contenu qu'il a obtenu en l'échange de la visualisation de la vidéo publicitaire.
+Ici vous pouvez définir la durée en minutes que vous offrez au lecteur en contrepartie de la visualisation d'une vidéo ViewPay. Par exemple si vous renseignez 15, l'Adblock Wall ne s'affichera plus pendant 15 minutes, pour laisser le lecteur profiter du contenu qu'il a obtenu en l'échange de la visualisation de la vidéo publicitaire. Si vous souhaitez débloquer le site pour la session de l'utilisateur, laissez simplement ce champ vide.
 
 ## Fonctions Javascript et lancement du Paywall
 
