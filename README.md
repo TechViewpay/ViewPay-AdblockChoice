@@ -50,7 +50,7 @@ Les fonctions JS vont permettre au paywall de s'afficher correctement et de fair
 <script>
 	function ABWinit(){
 	var wall = new ABW({
-		site_id: 'd0c656ec794afc3e',
+		site_id: 'b23d3f0235ae89e4',
 		load_callback:existAds,
 		noads_callback: noAds,
 		complete_callback:completeAds,
