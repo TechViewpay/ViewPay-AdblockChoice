@@ -22,7 +22,10 @@ Pour récupérer votre tag, prenez contact avec votre référent ViewPay.
 ## Options
 Voici une liste non exhaustive des paramètres et options que vous pouvez activer pour votre intégration de l'Adblock Choice : 
 
-- Bouton abonnement dans le paywall + lien de connection si l'utilisateur est déjà abonné.
-- Durée de déblocage du wall offerte par ViewPay.
+- Bouton abonnement dans le paywall
+- Lien de connection si l'utilisateur est déjà abonné.
+- Tutoriel custom si vous le souhaitez.
+- Paramétrer la durée de déblocage du wall offerte par ViewPay.
 - Retarder l'affichage du wall pour laisser l'utilisateur lire les premières lignes.
 - Masquer le wall si aucune publicité payante n'a été trouvée.
+- Afficher une croix pour fermer le wall avec un timer.
