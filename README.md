@@ -13,6 +13,9 @@ Le fichier [Yourtag]_abChoice.js est le seul fichier nécessaire à appeler, cel
 Ces fichiers peuvent être installés sur vos serveurs afin d'éviter qu'il soit facilement bloqué par les solutions d’adblock et que ViewPay soit identifié comme acteur anti-adblock.
 On peut également l’intégrer dans d'autres fichiers JS indispensables afin qu'il soit plus difficilement bloquable.
 
+Il est également possible de mettre en place un système qui s'assure que notre fichier JS ait bien été chargé et a pu s'exécuter correctement. Dans le cas contraire, ce système pourrait masquer le contenu de l'article et afficher un texte explicatif par exemple.
+
+
 Pour récupérer votre tag, prenez contact avec votre référent ViewPay.
 
 
