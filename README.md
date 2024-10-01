@@ -7,7 +7,7 @@ L'Adblock Choice de ViewPay a été pensé pour répondre aux besoins d'éditeur
 
 ## Chargement du Javascript
 ```html
-<script defer type="text/javascript" src="https://cdn.jokerly.com/scripts/[Yourtag]_abChoice.js"></script> 
+<script defer type="text/javascript" src="https://pmur.org/scripts/[Yourtag]_abChoice.js"></script> 
 ```
 Le fichier [Yourtag]_abChoice.js est le seul fichier nécessaire à appeler, celui-ci appelera les éléments nécessaires au moment voulu pour gérer le wall.
 Ces fichiers peuvent être installés sur vos serveurs afin d'éviter qu'il soit facilement bloqué par les solutions d’adblock et que ViewPay soit identifié comme acteur anti-adblock.
